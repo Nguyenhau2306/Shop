@@ -32,23 +32,10 @@ const Checkout = () => {
               {state.map(itemList)}
 
               <li className="list-group-item d-flex justify-content-between">
-                <span>Tổng (VND)</span>
+                <span>Tổng (USD)</span>
                 <strong>${total}</strong>
               </li>
             </ul>
-
-            <form className="card p-2">
-              <div className="input-group">
-                <input
-                  type="text"
-                  className="form-control"
-                  placeholder="Promo code"
-                />
-                <button type="submit" className="btn btn-secondary">
-                  Redeem
-                </button>
-              </div>
-            </form>
           </div>
           <div className="col-md-7 col-lg-8">
             <h4 className="mb-3">Địa chỉ thanh toán</h4>
@@ -61,9 +48,8 @@ const Checkout = () => {
                   <input
                     type="text"
                     className="form-control"
-                    id="firstName"
-                    placeholder="..."
-                    value=""
+                    id="fistname"
+                    placeholder=""
                     required=""
                   />
                   <div className="invalid-feedback">
@@ -78,9 +64,8 @@ const Checkout = () => {
                   <input
                     type="text"
                     className="form-control"
-                    id="lastName"
-                    placeholder="..."
-                    value=""
+                    id="lastname"
+                    placeholder=""
                     required=""
                   />
                   <div className="invalid-feedback">Họ hợp lệ là bắt buộc.</div>
@@ -177,13 +162,13 @@ const Checkout = () => {
                     checked=""
                     required=""
                   />
-                  <label className="form-check-label" htmlFor="credit">
+                  <label className="form-check-label" htmlFor="debit">
                     Thẻ tín dụng
                   </label>
                 </div>
                 <div className="form-check">
                   <input
-                    id="debit"
+                    id="paypal"
                     name="paymentMethod"
                     type="radio"
                     className="form-check-input"

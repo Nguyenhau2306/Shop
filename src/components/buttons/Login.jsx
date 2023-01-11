@@ -54,7 +54,7 @@ const Login = () => {
                     aria-describedby="emailHelp"
                   />
                   <div id="emailHelp" className="form-text">
-                    We'll never share your email with anyone else.
+                    Chúng tôi sẽ không chia sẻ email của bạn với bất kì ai.
                   </div>
                 </div>
                 <div className="mb-3">
