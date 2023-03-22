@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const Contact = () => {
   return (
     <div>
@@ -58,6 +58,9 @@ const Contact = () => {
                 Gửi đi
               </button>
             </form>
+            <Link to="/contact" className="btn btn-outline-primary px-3">
+              contact
+            </Link>
           </div>
         </div>
       </div>

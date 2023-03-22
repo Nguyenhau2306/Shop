@@ -7,15 +7,15 @@ import { addItem, delItem } from "../redux/actions/index";
 
 const ProductDetail = () => {
   const [cartBtn, setCartBtn] = useState("Thêm vào giỏ hàng");
-  {
-    /* Now we need a product id which is pass from the product page. */
-  }
+
+  //id sản phẩm được chuyển từ trang sản phẩm.
+
   const proid = useParams();
   const proDetail = DATA.filter((x) => x.id == proid.id);
   const product = proDetail[0];
   console.log(product);
 
-  // We need to store useDispatch in a variable
+  //lưu trữ useDispatch trong một biến
   const dispatch = useDispatch();
 
   const handleCart = (product) => {

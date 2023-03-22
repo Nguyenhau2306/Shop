@@ -1,3 +1,8 @@
+*{
+  padding: 0;
+  margin: 0;
+  
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -19,24 +24,11 @@ code {
 .navbar-brand{
   letter-spacing: 3px;
 }
-
-/* Card */
-.card{
-  transition: all 0.5s ease;
-}
-.card:hover{
-  transform: scale(1.1);
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-}
-
-/* Product */
-.product img {
-  transition: all 0.5s ease;
-}
-.product img:hover{
-  transform: scale(1.1);
-}
 /* header */
+.container-fluid {
+  background: #c29de5;
+}
+
 .container-fluid.py-2 {
   background: #c29de5;
   font-weight: 500;
@@ -58,7 +50,6 @@ code {
   
 }
 .ms-2:hover{
-  background:#1e616e; ;
 }
 /*footer*/
 .footer1 {

@@ -3,7 +3,7 @@ import React from "react";
 const Login = () => {
   return (
     <>
-      {/* <!-- Button trigger modal --> */}
+      {/* <!-- Phương thức kích hoạt nút --> */}
       <button
         type="button"
         className="btn btn-outline-primary ms-auto"

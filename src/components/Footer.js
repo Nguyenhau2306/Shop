@@ -62,7 +62,7 @@ function Footer() {
       </div>
       <div class="footer2">
         <div class="container text-center">
-          <p>@ Website_DH_01.2023</p>
+          <p>@ Website_NDH_01.2023</p>
         </div>
       </div>
     </footer>

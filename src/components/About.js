@@ -7,7 +7,7 @@ const About = () => {
       <div className="container py-5 my-5">
         <div className="row">
           <div className="col-md-6">
-            <h1 className="text-primary fw-bold mb-4">Giới thiệu</h1>
+            <h1 className="text-primary fw-bold mb-4"> Hello, well come to my app!</h1>
             <p className="lead mb-4">
               Tổng quan về Apple tập đoàn công nghệ hàng đầu Thành lập từ năm
               1976, trải qua 7 đời CEO với 6 dòng sản phẩm chính. Hơn 1,4 tỷ

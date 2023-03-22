@@ -3,7 +3,7 @@ import React from "react";
 const Signup = () => {
   return (
     <div>
-      {/* <!-- Button trigger modal --> */}
+ {/* Phương thức kích hoạt nút  */}
       <button
         type="button"
         className="btn btn-outline-primary ms-2"
@@ -13,7 +13,7 @@ const Signup = () => {
         <span className="fa fa-user-plus me-1"></span> Đăng ký
       </button>
 
-      {/* <!-- Modal --> */}
+      {/* <!-- phương thức --> */}
       <div
         className="modal fade"
         id="signupModal"
@@ -36,7 +36,7 @@ const Signup = () => {
             </div>
             <div className="modal-body">
               <button className="btn btn-primary w-100 mb-4">
-                <span className="fa fa-google me-2"></span> Sign up With Google
+                <span className="fa fa-google me-2"> </span> Sign up With Google
               </button>
               <button className="btn btn-primary w-100 mb-4">
                 <span className="fa fa-facebook me-2"></span> Sign up With
